@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine, text
 
 engine = create_engine(
-    "mariadb+pymysql://sql6701175:!GG9dTqGicP@sql6.freemysqlhosting.net/sql6701175?charset=utf8mb4"
+    "mysql+pymysql://sql6701175:!GG9dTqGicP@sql6.freemysqlhosting.net/sql6701175?charset=utf8mb4"
 )
 
 # with engine.connect() as conn:
