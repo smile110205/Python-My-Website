@@ -1,7 +1,8 @@
 from sqlalchemy import create_engine, text
 
 engine = create_engine(
-    "mariadb+pymysql://root:!nspir3P3ns@10.10.9.121/wbt?charset=utf8mb4")
+    "mariadb+pymysql://sql6701175:!GG9dTqGicP@sql6.freemysqlhosting.net/sql6701175?charset=utf8mb4"
+)
 
 # with engine.connect() as conn:
 #     result = conn.execute(text("select * from jobs"))
